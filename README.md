@@ -20,8 +20,8 @@ This project is part of the Team5 application, designed to provide a seamless us
 The project is built using the following technologies:
 
 - **React**: A JavaScript library for building user interfaces.
-- **TypeScript**: A strongly typed programming language that builds on JavaScript.
-- **CSS/SCSS**: For styling the application.
+- **JavaScript**: As main language.
+- **Material UI**: For styling the application.
 - **Axios**: For handling HTTP requests.
 - **React Router**: For managing navigation.
 
