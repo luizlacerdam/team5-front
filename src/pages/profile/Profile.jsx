@@ -14,7 +14,9 @@ import {
 import { useEffect, useState } from "react";
 import { getItem, setItem } from "../../utils/localStorageHandling";
 import { requestPatchWithToken } from "../../utils/requests";
-
+// This component is used to update the user profile
+// It allows the user to update their username and email
+// It also allows the user to logout
 const Profile = () => {
   const [user, setUser] = useState({});
   const [formData, setFormData] = useState({ username: "", email: "" });

@@ -2,7 +2,7 @@ import MenuIcon from "@mui/icons-material/Menu";
 import { AppBar, Box, Button, Container, Grid, IconButton, Paper, Toolbar, Typography } from "@mui/material";
 import { useEffect, useState } from "react";
 import { getItem } from "../../utils/localStorageHandling";
-
+// This component is the main page of the app
 function App() {
   const [user, setUser] = useState({});
 

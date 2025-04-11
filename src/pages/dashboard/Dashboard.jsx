@@ -27,7 +27,8 @@ import {
   requestPatchWithToken,
   requestPostWithToken,
 } from "../../utils/requests";
-  
+// This component is used to display the dashboard of the application
+// It is used to display the tickets and the ticket logs
   function Dashboard() {
     const [user, setUser] = useState({
       username: "",

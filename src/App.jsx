@@ -13,6 +13,8 @@ import SignInAction from './pages/signin/Actions/SignInAction';
 import SignIn from './pages/signin/SignIn';
 import SignUpAction from './pages/signup/Actions/SignUpAction';
 import SignUp from './pages/signup/SignUp';
+// This function is used to create the router for the app
+// It is used in the main file of the app
 function App() {
   const router = createBrowserRouter(
     createRoutesFromElements(

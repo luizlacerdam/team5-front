@@ -13,7 +13,7 @@ import {
 import PropTypes from "prop-types";
 import { useState } from "react";
 import { requestDataWithToken, requestPostWithToken } from "../utils/requests";
-  
+  // This component is used to create a new ticket
   const CreateNewTicketForm = ({ user, fetchTickets }) => {
     const [ticketDescription, setTicketDescription] = useState("");
     const [priority, setPriority] = useState("low");

@@ -1,5 +1,6 @@
 import { Form, useActionData, useNavigation } from 'react-router-dom';
-
+// This function is used to handle the sign-in form
+// It is used in the sign-in route to handle the form submission
 export default function SignIn() {
   const actionReturn = useActionData();
   const { state } = useNavigation();

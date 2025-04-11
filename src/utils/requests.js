@@ -1,5 +1,6 @@
 import axios from 'axios';
-
+// This file contains all the requests to the API
+// It is used in the app to handle all the requests to the API
 const HOST = import.meta.env.VITE_HOST;
 const PROTOCOL = import.meta.env.VITE_PROTOCOL;
 

@@ -1,5 +1,6 @@
 import { requestPost } from '../../../utils/requests';
-
+// This function is used to handle the sign-up action
+// It is used in the sign-up route to handle the form submission
 export default async function SignUpAction({ request }) {
   const formData = await request.formData();
   const email = formData.get('email');
